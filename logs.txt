@@ -1,0 +1,11 @@
+INFO - 
+HELMET {, 
+	quality=BRONZE, 
+	weight=67.0, 
+	price=512}was successfully dressed on knight, and 
+HELMET {, 
+	quality=LEGENDARY, 
+	weight=1.0, 
+	price=2} was put to inventory
+INFO - Data was successfully read from files
+INFO - Data was successfully written to files

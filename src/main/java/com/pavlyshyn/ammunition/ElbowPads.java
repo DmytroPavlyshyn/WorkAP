@@ -1,14 +1,13 @@
 package com.pavlyshyn.ammunition;
 
 public class ElbowPads extends  Ammunition{
-    private final Integer id = 3;
-    public ElbowPads() {
+    public ElbowPads() { }
+
+    public ElbowPads(AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(AmmunitionType.ELBOW_PADS, ammunitionQuality, weight, price);
     }
 
-    public ElbowPads(Double weight, Integer price) {
-        super(weight, price);
-    }
-    public Integer getId() {
-        return id;
+    public ElbowPads(AmmunitionType ammunitionType, AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(ammunitionType, ammunitionQuality, weight, price);
     }
 }

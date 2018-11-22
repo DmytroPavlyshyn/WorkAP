@@ -1,15 +1,18 @@
 package com.pavlyshyn.ammunition;
 
 
-public abstract class Ammunition {
-    private final Integer id = 0;
+public class Ammunition {
+    private AmmunitionType ammunitionType;
+    private AmmunitionQuality ammunitionQuality;
     private Double weight;
     private Integer price;
 
     public Ammunition() {
     }
 
-    public Ammunition(Double weight, Integer price) {
+    public Ammunition(AmmunitionType ammunitionType, AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        this.ammunitionType = ammunitionType;
+        this.ammunitionQuality = ammunitionQuality;
         this.weight = weight;
         this.price = price;
     }
@@ -21,8 +24,19 @@ public abstract class Ammunition {
     public void setPrice(Integer price) {
         this.price = price;
     }
+    public void setAmmunitionType(AmmunitionType ammunitionType) {
+        this.ammunitionType = ammunitionType;
+    }
+    public void setAmmutionType(String ammutionType) {
+        this.ammunitionType = AmmunitionType.valueOf(ammutionType);
+    }
 
-
+    public void setAmmunitionQuality(AmmunitionQuality ammunitionQuality) {
+        this.ammunitionQuality = ammunitionQuality;
+    }
+    public void setAmmunitionQuality(String ammunitionQuality) {
+        this.ammunitionQuality = AmmunitionQuality.valueOf(ammunitionQuality);
+    }
     public Double getWeight() {
         return weight;
     }
@@ -31,16 +45,21 @@ public abstract class Ammunition {
         return price;
     }
 
-    public Integer getId() {
-        return id;
+    public String getAmmunitionType() {
+        return ammunitionType.toString();
     }
+
+    public AmmunitionQuality getAmmunitionQuality() {
+        return ammunitionQuality;
+    }
+
     @Override
     public String toString() {
-        return  this.getClass().getSimpleName()+" {" +
-                //          "ammunitionKind=" + ammunitionKind +
-                " weight=" + weight +
-                ", price=" + price +
-                "}";
+        return "\n"+ ammunitionType + " {"+
+                ", \n\tquality=" + ammunitionQuality +
+                ", \n\tweight=" + weight +
+                ", \n\tprice=" + price +
+                '}';
     }
 }
 

@@ -1,16 +1,14 @@
 package com.pavlyshyn.ammunition;
 
-import com.pavlyshyn.ammunition.Ammunition;
 
 public class Shield extends Ammunition {
-    private final Integer id = 7;
-    public Shield() {
+    public Shield() {}
+
+    public Shield(AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(AmmunitionType.SHIELD, ammunitionQuality, weight, price);
     }
 
-    public Shield(Double weight, Integer price) {
-        super(weight, price);
-    }
-    public Integer getId() {
-        return id;
+    public Shield(AmmunitionType ammunitionType, AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(ammunitionType, ammunitionQuality, weight, price);
     }
 }

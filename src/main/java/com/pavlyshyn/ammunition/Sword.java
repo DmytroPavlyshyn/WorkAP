@@ -1,16 +1,14 @@
 package com.pavlyshyn.ammunition;
 
-import com.pavlyshyn.ammunition.Ammunition;
 
 public class Sword extends Ammunition {
-    private final Integer id = 8;
     public Sword() {
     }
-
-    public Sword(Double weight, Integer price) {
-        super(weight, price);
+    public Sword(AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(AmmunitionType.SWORD, ammunitionQuality, weight, price);
     }
-    public Integer getId() {
-        return id;
+
+    public Sword(AmmunitionType ammunitionType, AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(ammunitionType, ammunitionQuality, weight, price);
     }
 }

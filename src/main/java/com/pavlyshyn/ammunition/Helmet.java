@@ -1,14 +1,13 @@
 package com.pavlyshyn.ammunition;
 
 public class Helmet extends Ammunition {
-    private final Integer id = 5;
-    public Helmet() {
-    }
-    public Helmet(Double weight, Integer price) {
-        super(weight, price);
-    }
-    public Integer getId() {
-        return id;
+    public Helmet() {}
+
+    public Helmet(AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(AmmunitionType.HELMET, ammunitionQuality, weight, price);
     }
 
+    public Helmet(AmmunitionType ammunitionType, AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(ammunitionType, ammunitionQuality, weight, price);
+    }
 }

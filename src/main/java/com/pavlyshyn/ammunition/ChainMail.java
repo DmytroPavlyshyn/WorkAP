@@ -1,14 +1,14 @@
 package com.pavlyshyn.ammunition;
 
 public class ChainMail extends Ammunition {
-    private final Integer id = 2;
-    public ChainMail() {
+    public ChainMail() {}
+
+    public ChainMail(AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(AmmunitionType.CHAIN_MAIL, ammunitionQuality, weight, price);
     }
 
-    public ChainMail(Double weight, Integer price) {
-        super(weight, price);
-    }
-    public Integer getId() {
-        return id;
+    public ChainMail(AmmunitionType ammunitionType, AmmunitionQuality ammunitionQuality, Double weight, Integer price) {
+        super(ammunitionType, ammunitionQuality, weight, price);
     }
 }
+

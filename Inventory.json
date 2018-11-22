@@ -1,0 +1,46 @@
+[ {
+  "ammunitionType" : "ELBOW_PADS",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 12.3,
+  "price" : 660
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 15.2,
+  "price" : 780
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 5.32,
+  "price" : 264
+}, {
+  "ammunitionType" : "IRON_KNEE_PADS",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 67.2,
+  "price" : 745
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 78.2,
+  "price" : 111
+}, {
+  "ammunitionType" : "ELBOW_PADS",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 4.0,
+  "price" : 362
+}, {
+  "ammunitionType" : "IRON_KNEE_PADS",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 3.0,
+  "price" : 323
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 78.0,
+  "price" : 919
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 67.0,
+  "price" : 512
+} ]

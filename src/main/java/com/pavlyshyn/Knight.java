@@ -1,20 +1,12 @@
 package com.pavlyshyn;
 
 import com.pavlyshyn.ammunition.*;
-import com.pavlyshyn.iofile.AmmunitionReader;
-import com.pavlyshyn.iofile.AmmunitionWriter;
 
-import java.io.IOException;
 import java.util.*;
 
 public class Knight {
-    private List<Ammunition> ammunitions =  new ArrayList<Ammunition>();
-    {
-        ammunitions.add(new Shield(1.0,2));
-        ammunitions.add(new ElbowPads(1.0,2));
-        ammunitions.add(new Sword(1.0,2));
-        ammunitions.add(new Helmet(1.0,2));
-    }
+
+    private List<Ammunition> ammunitions = new ArrayList<>();
 
     public Knight() {
     }
@@ -24,62 +16,72 @@ public class Knight {
     }
 
     public Ammunition addAmmunition(Ammunition ammunition) {
-        if(ammunitions.isEmpty()){
-            ammunitions.add(ammunition);
-        }
-        if(!isEquipped(ammunition.getClass())) {
+        if (ammunitions.isEmpty()) {
             ammunitions.add(ammunition);
             return null;
         }
-        Ammunition temp = findEquipped(ammunition.getClass());
+        if (!isEquipped(ammunition)) {
+            ammunitions.add(ammunition);
+            return null;
+        }
+        Ammunition temp = findEquipped(ammunition);
         ammunitions.remove(temp);
         ammunitions.add(ammunition);
+        Demo.logger.info(""+ ammunition+ "was successfully dressed on knight, and "+temp +" was put to inventory");
         return temp;
+    }
 
+    public List<Ammunition> addAmmunitionAll(List<Ammunition> ammunitions) {
+        List<Ammunition> alreadyEquipedAmmunition = new ArrayList<>();
+        for (Ammunition ammunition : ammunitions) {
+            Ammunition temp = addAmmunition(ammunition);
+            if (temp != null) {
+                alreadyEquipedAmmunition.add(temp);
+            }
+        }
+        return alreadyEquipedAmmunition;
     }
 
     public List<Ammunition> getAmmunitions() {
         return ammunitions;
     }
 
-    public Ammunition findEquipped(Class<? extends Ammunition> ammunitionClass){
-        for(Ammunition ammunition:ammunitions){
-            if(ammunition.getClass() == ammunitionClass){
-                return ammunition;
+    public Ammunition findEquipped(Ammunition ammunition) {
+        for (Ammunition ammunition1 : ammunitions) {
+            if (ammunition1.getAmmunitionType().equals(ammunition.getAmmunitionType())) {
+                return ammunition1;
             }
         }
         return null;
     }
 
-    public boolean isEquipped(Class<? extends Ammunition> ammunitionClass){
-        for(Ammunition ammunition:ammunitions){
-            if(ammunition.getClass() == ammunitionClass){
+    public boolean isEquipped(Ammunition ammunition) {
+        for (Ammunition ammunition1 : ammunitions) {
+            if (ammunition1.getAmmunitionType().equals(ammunition.getAmmunitionType())) {
                 return true;
             }
         }
         return false;
     }
 
+    public Integer getPrice() {
+        if (ammunitions.isEmpty()) {
+            return 0;
+        }
+        Integer totalPrice = 0;
+        for (Ammunition ammunition : ammunitions) {
+            totalPrice += ammunition.getPrice();
+        }
+        return totalPrice;
+    }
+
     @Override
     public String toString() {
         return "Knight{" +
-                "ammunitions=" + ammunitions +
+                "ammunitions = " + ammunitions +
                 '}';
     }
 
-    public static void main(String[] args) {
-        Knight knight = new Knight();
-        //AmmunitionWriter ammunitionWriter = new AmmunitionWriter("123.json");
-        AmmunitionReader ammunitionReader = new AmmunitionReader("123.json");
-//        try {
-//         //   ammunitionWriter.writeToFile(knight.getAmmunitions());
-//           // ammunitionReader.
-//        }catch (IOException e){
-//            System.err.println(e);
-//        }
-////        System.out.println(knight);
-////        System.out.println(knight.getAmmunitions().get(1).getId());
-    }
 }
 
 
