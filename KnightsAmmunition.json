@@ -1,21 +1,6 @@
 [ {
-  "ammunitionType" : "ELBOW_PADS",
-  "ammunitionQuality" : "IRON",
-  "weight" : 23.0,
-  "price" : 2
-}, {
-  "ammunitionType" : "GLOVES",
-  "ammunitionQuality" : "IRON",
-  "weight" : 1.0,
-  "price" : 2
-}, {
-  "ammunitionType" : "SHIELD",
+  "ammunitionType" : "CHAINMAIL",
   "ammunitionQuality" : "LEGENDARY",
-  "weight" : 1.0,
-  "price" : 2
-}, {
-  "ammunitionType" : "HELMET",
-  "ammunitionQuality" : "LEGENDARY",
-  "weight" : 1.0,
-  "price" : 2
+  "weight" : 67.2,
+  "price" : 311
 } ]

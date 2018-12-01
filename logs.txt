@@ -9,3 +9,57 @@ HELMET {,
 	price=2} was put to inventory
 INFO - Data was successfully read from files
 INFO - Data was successfully written to files
+INFO - Data was successfully read from files
+INFO - Data was successfully read from files
+INFO - Data was successfully read from files
+INFO - 
+CHAINMAIL {, 
+	quality=LEGENDARY, 
+	weight=67.2, 
+	price=311}was successfully dressed on knight
+INFO - Data was successfully read from files
+INFO - Data was successfully read from files
+INFO - 
+SHIELD {, 
+	quality=SILVER, 
+	weight=99.0, 
+	price=264}was successfully dressed on knight
+INFO - Data was successfully read from files
+INFO - 
+SHIELD {, 
+	quality=SILVER, 
+	weight=99.0, 
+	price=264}was successfully dressed on knight
+INFO - Data was successfully read from files
+INFO - 
+SHIELD {, 
+	quality=SILVER, 
+	weight=99.0, 
+	price=264}was successfully dressed on knight
+INFO - Data was successfully read from files
+INFO - 
+SHIELD {, 
+	quality=SILVER, 
+	weight=99.0, 
+	price=264}was successfully dressed on knight
+INFO - Data was successfully read from files
+INFO - Data was successfully read from files
+INFO - 
+SHIELD {, 
+	quality=SILVER, 
+	weight=99.0, 
+	price=264}was successfully dressed on knight
+INFO - Data was successfully read from files
+INFO - 
+SHIELD {, 
+	quality=SILVER, 
+	weight=99.0, 
+	price=264}was successfully dressed on knight
+INFO - Data was successfully read from files
+INFO - 
+GLOVES {, 
+	quality=BRONZE, 
+	weight=21.5, 
+	price=710}was successfully dressed on knight
+INFO - Data was successfully read from files
+INFO - Data was successfully written to files

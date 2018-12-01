@@ -1,36 +1,33 @@
 package com.pavlyshyn;
 
 import com.pavlyshyn.ammunition.*;
-import com.pavlyshyn.iofile.AmmunitionIO;
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.FileAppender;
-import org.apache.log4j.Logger;
-import org.apache.log4j.SimpleLayout;
+import org.apache.log4j.*;
 
 import java.io.IOException;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.regex.*;
 
 import static com.pavlyshyn.Knights.*;
 
 public class Demo {
-    static Knight knight = new Knight();
+    static Knight knight = new Knight("Richard");
     static Scanner scanner = new Scanner(System.in);
     static List<Ammunition> Inventory = new ArrayList<>();
     static Logger logger = Logger.getLogger("Logger");
-   static {
+
+    static {
         BasicConfigurator.configure();
         try {
-            logger.addAppender(new FileAppender(new SimpleLayout(),"logs.txt"));
-        }catch (IOException e){
+            logger.removeAllAppenders();
+            logger.addAppender(new FileAppender(new SimpleLayout(), "logs.txt"));
+        } catch (IOException e) {
             System.err.println(e);
         }
     }
 
     public static void main(String[] args) {
         String command;
-        Pattern addPattern = Pattern.compile("(?i)\\s*add\\s+(?<ammunition>\\w+?)\\s+(?<quality>\\w+?)\\s+?(?<weight>\\d+?\\.\\d+?)\\s+?(?<price>\\d+)");
+        Pattern addPattern = Pattern.compile("(?i)\\s*add\\s+(?<ammunition>\\w+?)\\s+(?<quality>\\w+?)\\s+?(?<weight>\\d+?\\.\\d+?|\\d+?)\\s+?(?<price>\\d+)");
         Pattern closePattern = Pattern.compile("\\s*close\\s*");
         Pattern savePattern = Pattern.compile("\\s*save\\s*");
         Pattern readPattern = Pattern.compile("\\s*read\\s*");
@@ -78,7 +75,7 @@ public class Demo {
                 showPrice(knight);
             } else if (command.matches(rangePattern.pattern())) {
                 matcher = rangePattern.matcher(command);
-                if(matcher.find()){
+                if (matcher.find()) {
                     try {
                         if (matcher.group(1).equals("knight")) {
                             showInRange(knight.getAmmunitions(), Integer.parseInt(matcher.group("minprice")),
@@ -87,11 +84,11 @@ public class Demo {
                             showInRange(Inventory, Integer.parseInt(matcher.group("minprice")),
                                     Integer.parseInt(matcher.group("maxprice")));
                         }
-                    }catch (Exception e){
+                    } catch (Exception e) {
                         System.err.println(e);
                     }
                 }
-            }else if (command.matches(sortPattern.pattern())) {
+            } else if (command.matches(sortPattern.pattern())) {
                 matcher = sortPattern.matcher(command);
                 if (matcher.find()) {
                     if (matcher.group(1).equals("(?i)knight")) {
@@ -103,20 +100,26 @@ public class Demo {
             } else if (command.matches(addPattern.pattern())) {
                 matcher = addPattern.matcher(command);
                 if (matcher.find()) {
+                    boolean isfound = false;
                     for (Ammunition ammunition : Inventory) {
                         if (ammunition.getAmmunitionType().matches("(?i)" + matcher.group("ammunition")) &&
                                 (ammunition.getAmmunitionQuality().toString().matches("(?i)" + matcher.group("quality")) &&
                                         (ammunition.getWeight().equals(Double.parseDouble(matcher.group("weight")))) &&
                                         (ammunition.getPrice().equals(Integer.parseInt(matcher.group("price")))))) {
                             addAmmunition(knight, ammunition, Inventory);
+                            isfound = true;
                             break;
                         }
+                    }
+                    if (!isfound) {
+                        System.err.println("In inventory there's no such ammunition");
                     }
                 }
             } else if (command.matches(helpPattern.pattern())) {
                 help();
+            } else {
+                System.out.println("Incorrect command, see help for more information");
             }
-
 
         }
     }

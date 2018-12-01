@@ -5,13 +5,17 @@ import com.pavlyshyn.ammunition.*;
 import java.util.*;
 
 public class Knight {
-
+    private String name;
     private List<Ammunition> ammunitions = new ArrayList<>();
 
     public Knight() {
     }
+    public Knight(String name) {
+        this.name = name;
+    }
 
-    public Knight(List<Ammunition> ammunitions) {
+    public Knight(String name, List<Ammunition> ammunitions) {
+        this.name = name;
         this.ammunitions = ammunitions;
     }
 
@@ -27,7 +31,7 @@ public class Knight {
         Ammunition temp = findEquipped(ammunition);
         ammunitions.remove(temp);
         ammunitions.add(ammunition);
-        Demo.logger.info(""+ ammunition+ "was successfully dressed on knight, and "+temp +" was put to inventory");
+        Demo.logger.info("" + ammunition + "was successfully dressed on knight, and " + temp + " was put to inventory");
         return temp;
     }
 
@@ -75,9 +79,13 @@ public class Knight {
         return totalPrice;
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
-        return "Knight{" +
+        return this.name + "{" +
                 "ammunitions = " + ammunitions +
                 '}';
     }

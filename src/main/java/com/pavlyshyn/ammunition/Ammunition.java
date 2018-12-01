@@ -24,9 +24,11 @@ public class Ammunition {
     public void setPrice(Integer price) {
         this.price = price;
     }
+
     public void setAmmunitionType(AmmunitionType ammunitionType) {
         this.ammunitionType = ammunitionType;
     }
+
     public void setAmmutionType(String ammutionType) {
         this.ammunitionType = AmmunitionType.valueOf(ammutionType);
     }
@@ -34,9 +36,11 @@ public class Ammunition {
     public void setAmmunitionQuality(AmmunitionQuality ammunitionQuality) {
         this.ammunitionQuality = ammunitionQuality;
     }
+
     public void setAmmunitionQuality(String ammunitionQuality) {
         this.ammunitionQuality = AmmunitionQuality.valueOf(ammunitionQuality);
     }
+
     public Double getWeight() {
         return weight;
     }
@@ -55,7 +59,7 @@ public class Ammunition {
 
     @Override
     public String toString() {
-        return "\n"+ ammunitionType + " {"+
+        return "\n" + ammunitionType + " {" +
                 ", \n\tquality=" + ammunitionQuality +
                 ", \n\tweight=" + weight +
                 ", \n\tprice=" + price +

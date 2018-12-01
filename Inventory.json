@@ -1,46 +1,501 @@
 [ {
-  "ammunitionType" : "ELBOW_PADS",
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 91.98,
+  "price" : 551
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 61.43,
+  "price" : 714
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 72.86,
+  "price" : 944
+}, {
+  "ammunitionType" : "SHIELD",
   "ammunitionQuality" : "GOLD",
-  "weight" : 12.3,
-  "price" : 660
+  "weight" : 13.05,
+  "price" : 358
 }, {
-  "ammunitionType" : "GLOVES",
-  "ammunitionQuality" : "SILVER",
-  "weight" : 15.2,
-  "price" : 780
-}, {
-  "ammunitionType" : "HELMET",
-  "ammunitionQuality" : "LEGENDARY",
-  "weight" : 5.32,
-  "price" : 264
-}, {
-  "ammunitionType" : "IRON_KNEE_PADS",
-  "ammunitionQuality" : "SILVER",
-  "weight" : 67.2,
-  "price" : 745
-}, {
-  "ammunitionType" : "SHOES",
-  "ammunitionQuality" : "LEGENDARY",
-  "weight" : 78.2,
-  "price" : 111
-}, {
-  "ammunitionType" : "ELBOW_PADS",
-  "ammunitionQuality" : "SILVER",
-  "weight" : 4.0,
-  "price" : 362
-}, {
-  "ammunitionType" : "IRON_KNEE_PADS",
-  "ammunitionQuality" : "LEGENDARY",
-  "weight" : 3.0,
-  "price" : 323
-}, {
-  "ammunitionType" : "GLOVES",
-  "ammunitionQuality" : "SILVER",
-  "weight" : 78.0,
-  "price" : 919
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 90.46,
+  "price" : 730
 }, {
   "ammunitionType" : "HELMET",
   "ammunitionQuality" : "BRONZE",
-  "weight" : 67.0,
-  "price" : 512
+  "weight" : 50.7,
+  "price" : 701
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 39.12,
+  "price" : 640
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 38.15,
+  "price" : 506
+}, {
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 85.6,
+  "price" : 170
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 83.16,
+  "price" : 580
+}, {
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 10.13,
+  "price" : 357
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 34.45,
+  "price" : 579
+}, {
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 93.22,
+  "price" : 747
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 28.76,
+  "price" : 680
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 7.42,
+  "price" : 334
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 48.24,
+  "price" : 679
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 3.93,
+  "price" : 198
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 10.24,
+  "price" : 150
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 68.78,
+  "price" : 102
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 38.5,
+  "price" : 935
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 49.73,
+  "price" : 155
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 31.08,
+  "price" : 560
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 71.9,
+  "price" : 870
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 28.06,
+  "price" : 403
+}, {
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 33.63,
+  "price" : 253
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 41.82,
+  "price" : 899
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 68.78,
+  "price" : 458
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 43.83,
+  "price" : 975
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 45.74,
+  "price" : 340
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 88.02,
+  "price" : 29
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 67.27,
+  "price" : 25
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 50.58,
+  "price" : 279
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 39.49,
+  "price" : 604
+}, {
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 30.88,
+  "price" : 801
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 36.69,
+  "price" : 605
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 12.72,
+  "price" : 851
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 66.07,
+  "price" : 747
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 84.04,
+  "price" : 114
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 93.66,
+  "price" : 210
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 91.09,
+  "price" : 719
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 46.82,
+  "price" : 960
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 49.34,
+  "price" : 921
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 9.88,
+  "price" : 507
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 10.84,
+  "price" : 506
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 53.14,
+  "price" : 504
+}, {
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 100.93,
+  "price" : 380
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 21.59,
+  "price" : 640
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 8.93,
+  "price" : 984
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 79.59,
+  "price" : 915
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 88.45,
+  "price" : 220
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 73.41,
+  "price" : 75
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 45.3,
+  "price" : 782
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 29.26,
+  "price" : 60
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 73.66,
+  "price" : 586
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 24.74,
+  "price" : 417
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 50.35,
+  "price" : 882
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 24.82,
+  "price" : 654
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 46.9,
+  "price" : 958
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 41.94,
+  "price" : 846
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 96.41,
+  "price" : 645
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 4.32,
+  "price" : 82
+}, {
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 49.67,
+  "price" : 964
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 13.28,
+  "price" : 937
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 74.5,
+  "price" : 806
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 62.9,
+  "price" : 677
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 42.6,
+  "price" : 749
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 85.37,
+  "price" : 446
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 54.84,
+  "price" : 100
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 49.64,
+  "price" : 719
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 12.25,
+  "price" : 447
+}, {
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 100.47,
+  "price" : 545
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 85.8,
+  "price" : 152
+}, {
+  "ammunitionType" : "ARMOUR",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 67.43,
+  "price" : 575
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 35.7,
+  "price" : 777
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 62.16,
+  "price" : 863
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 22.86,
+  "price" : 965
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 51.6,
+  "price" : 171
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 40.81,
+  "price" : 782
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 47.64,
+  "price" : 665
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 52.1,
+  "price" : 413
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 66.2,
+  "price" : 820
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 61.04,
+  "price" : 180
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 36.12,
+  "price" : 642
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 52.54,
+  "price" : 32
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 3.32,
+  "price" : 46
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 68.87,
+  "price" : 472
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 24.55,
+  "price" : 279
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 94.47,
+  "price" : 572
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 53.96,
+  "price" : 853
+}, {
+  "ammunitionType" : "HELMET",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 88.21,
+  "price" : 945
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 80.8,
+  "price" : 213
+}, {
+  "ammunitionType" : "SHIELD",
+  "ammunitionQuality" : "SILVER",
+  "weight" : 68.3,
+  "price" : 652
+}, {
+  "ammunitionType" : "CHAINMAIL",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 16.43,
+  "price" : 460
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "LEGENDARY",
+  "weight" : 58.48,
+  "price" : 840
+}, {
+  "ammunitionType" : "SHOES",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 87.16,
+  "price" : 62
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 17.35,
+  "price" : 647
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "GOLD",
+  "weight" : 87.9,
+  "price" : 936
+}, {
+  "ammunitionType" : "ELBOWPADS",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 92.37,
+  "price" : 648
+}, {
+  "ammunitionType" : "IRONKNEEPADS",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 11.65,
+  "price" : 765
+}, {
+  "ammunitionType" : "GLOVES",
+  "ammunitionQuality" : "BRONZE",
+  "weight" : 21.5,
+  "price" : 710
 } ]
