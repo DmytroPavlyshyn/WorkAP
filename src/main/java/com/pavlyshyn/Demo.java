@@ -102,7 +102,7 @@ public class Demo {
                 if (matcher.find()) {
                     boolean isfound = false;
                     for (Ammunition ammunition : Inventory) {
-                        if (ammunition.getAmmunitionType().matches("(?i)" + matcher.group("ammunition")) &&
+                        if (ammunition.getAmmunitionType().replace("_","").matches("(?i)" + matcher.group("ammunition")) &&
                                 (ammunition.getAmmunitionQuality().toString().matches("(?i)" + matcher.group("quality")) &&
                                         (ammunition.getWeight().equals(Double.parseDouble(matcher.group("weight")))) &&
                                         (ammunition.getPrice().equals(Integer.parseInt(matcher.group("price")))))) {

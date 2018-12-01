@@ -63,3 +63,15 @@ GLOVES {,
 	price=710}was successfully dressed on knight
 INFO - Data was successfully read from files
 INFO - Data was successfully written to files
+ERROR - com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `com.pavlyshyn.ammunition.AmmunitionType` from String "CHAINMAIL": value not one of declared Enum instance names: [ARMOUR, CHAIN_MAIL, SHOES, SHIELD, GLOVES, ELBOW_PADS, HELMET, IRON_KNEE_PADS, SWORD]
+ at [Source: (File); line: 12, column: 22] (through reference chain: java.util.ArrayList[2]->com.pavlyshyn.ammunition.Ammunition["ammunitionType"])
+ERROR - com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `com.pavlyshyn.ammunition.AmmunitionType` from String "CHAINMAIL": value not one of declared Enum instance names: [ARMOUR, CHAIN_MAIL, SHOES, SHIELD, GLOVES, ELBOW_PADS, HELMET, IRON_KNEE_PADS, SWORD]
+ at [Source: (File); line: 2, column: 22] (through reference chain: java.util.ArrayList[0]->com.pavlyshyn.ammunition.Ammunition["ammunitionType"])
+ERROR - com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `com.pavlyshyn.ammunition.AmmunitionType` from String "CHAINMAIL": value not one of declared Enum instance names: [ARMOUR, CHAIN_MAIL, SHOES, SHIELD, GLOVES, ELBOW_PADS, HELMET, IRON_KNEE_PADS, SWORD]
+ at [Source: (File); line: 2, column: 22] (through reference chain: java.util.ArrayList[0]->com.pavlyshyn.ammunition.Ammunition["ammunitionType"])
+INFO - Data was successfully read from files
+INFO - 
+ELBOW_PADS {, 
+	quality=BRONZE, 
+	weight=62.64, 
+	price=162}was successfully dressed on knight
