@@ -4,17 +4,7 @@
     <list default="true" id="5c5397ba-8e74-4712-be5b-a4556482a0f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inventory.json" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KnightsAmmunition.json" beforeDir="false" afterPath="$PROJECT_DIR$/KnightsAmmunition.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/ChainMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/ChainMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/ElbowPads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/ElbowPads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/IronKneePads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/IronKneePads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pavlyshyn/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pavlyshyn/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pavlyshyn/ammunition/AmmunitionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pavlyshyn/ammunition/AmmunitionType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pavlyshyn/ammunition/ChainMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pavlyshyn/ammunition/ChainMail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pavlyshyn/ammunition/ElbowPads.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pavlyshyn/ammunition/ElbowPads.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pavlyshyn/ammunition/IronKneePads.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pavlyshyn/ammunition/IronKneePads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionRandomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionRandomizer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,14 +33,89 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+              <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionRandomizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionQuality.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KnightsAmmunition.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Inventory.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/iofile/AmmunitionIO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/IronKneePads.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -71,6 +136,8 @@
       <find>Compare</find>
       <find>nextDouble</find>
       <find>read</find>
+      <find>iron</find>
+      <find>sword</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/Ammunition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionQuality.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmuntionRandomizer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionRandomizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/Armour.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/Gloves.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/Helmet.java" />
@@ -129,14 +195,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/ElbowPads.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/ChainMail.java" />
         <option value="$PROJECT_DIR$/KnightsAmmunition.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionRandomizer.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
     <option name="y" value="50" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -152,6 +219,11 @@
             <path>
               <item name="WorkAP2" type="b2602c69:ProjectViewProjectNode" />
               <item name="WorkAP2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkAP2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkAP2" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WorkAP2" type="b2602c69:ProjectViewProjectNode" />
@@ -201,8 +273,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +282,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="workap2" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543682520710" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543694110669" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -334,10 +406,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="40" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18590604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32871014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -347,7 +419,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Favorites" order="2" sideWeight="0.49932885" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932885" weight="0.44617563" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932885" visible="true" weight="0.44555873" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.76644295" weight="0.13597734" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -512,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4960">
@@ -537,13 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="744" column="48" lean-forward="true" selection-start-line="744" selection-start-column="48" selection-end-line="744" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3910">
-          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -568,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/iofile/AmmunitionIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/Main.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -587,13 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionQuality.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -621,32 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/IronKneePads.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/ElbowPads.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -661,23 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KnightsAmmunition.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionRandomizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/Shield.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -688,7 +689,78 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+          <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionQuality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KnightsAmmunition.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/iofile/AmmunitionIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/IronKneePads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventory.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pavlyshyn/ammunition/AmmunitionRandomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

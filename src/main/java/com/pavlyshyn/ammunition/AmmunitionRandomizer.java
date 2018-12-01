@@ -17,8 +17,8 @@ public class AmmunitionRandomizer {
         for (int i = 0; i < number; i++) {
             price = random.nextInt(1000);
             weight = 1 + new Random().nextInt(100) + (new Random().nextInt(100) * 1.0) * 0.01;
-            ammunitionType = AmmunitionType.values()[random.nextInt(AmmunitionType.values().length - 1)];
-            ammunitionQuality = AmmunitionQuality.values()[random.nextInt(AmmunitionQuality.values().length - 1)];
+            ammunitionType = AmmunitionType.values()[random.nextInt(AmmunitionType.values().length)];
+            ammunitionQuality = AmmunitionQuality.values()[random.nextInt(AmmunitionQuality.values().length)];
             ammunitions.add(new Ammunition(ammunitionType, ammunitionQuality, weight, price));
         }
         return ammunitions;
